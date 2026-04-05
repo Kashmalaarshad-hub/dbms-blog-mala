@@ -2,17 +2,30 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div class="home">
+  <div style="background-color: #f8f9fa; padding: 60px 20px; text-align: center; border-radius: 15px; margin-bottom: 40px; border: 1px solid #e9ecef;">
+    <h1 style="color: #2c3e50; font-size: 2.5em; margin-bottom: 10px;">Kashmala Arshad - DBMS Portfolio</h1>
+    <p style="font-size: 1.1em; color: #6c757d; max-width: 700px; margin: 0 auto;">
+      Welcome to my lab journal. I am a student at UET Faisalabad Campus, documenting my progress in Database Management Systems and Web Development.
+    </p>
+    <div style="margin-top: 25px;">
+      <a href="#posts" style="background-color: #007bff; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 10px; display: inline-block;">Read Lab Updates</a>
+      <a href="{{ site.baseurl }}/about" style="color: #007bff; padding: 12px 25px; text-decoration: none; border-radius: 5px; border: 1px solid #007bff; font-weight: bold; display: inline-block;">About Me</a>
+    </div>
+  </div>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+  <h2 id="posts" style="color: #343a40; border-bottom: 2px solid #007bff; display: inline-block; padding-bottom: 5px;">Latest Lab Articles</h2>
+  
+  <ul style="list-style: none; padding: 0; margin-top: 30px;">
+    {% for post in site.posts %}
+      <li style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 25px; border: 1px solid #eee;">
+        <span style="color: #adb5bd; font-size: 0.85em; font-weight: bold;">{{ post.date | date: "%B %d, %Y" }}</span>
+        <h3 style="margin: 10px 0;">
+          <a href="{{ post.url | prepend: site.baseurl }}" style="color: #2c3e50; text-decoration: none; font-size: 1.4em;">{{ post.title }}</a>
+        </h3>
+        <p style="color: #6c757d; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 0.9em;">Read More →</a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
