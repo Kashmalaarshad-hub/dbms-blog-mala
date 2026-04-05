@@ -85,8 +85,27 @@ exclude:
   - README.md
   - CNAME
   # Navigation links
+# Footer links (Menu update)
+footer-links:
+  dribbble:
+  email: kashmala@example.com
+  facebook:
+  flickr:
+  github: Kashmalaarshad-hub
+  instagram:
+  linkedin:
+  pinterest:
+  rss:
+  twitter:
+  stackoverflow:
+  youtube:
+  googleplus:
+
+# Add this for Menu Bar
 navigation:
-  - {name: "Home", link: "/dbms-blog-mala/"}
-  - {name: "Blog", link: "/dbms-blog-mala/blog/"}
-  - {name: "About", link: "/dbms-blog-mala/about/"}
-  - {name: "Contact Us", link: "/dbms-blog-mala/contact/"}
+  - title: Blog
+    url: /dbms-blog-mala/blog/
+  - title: About
+    url: /dbms-blog-mala/about/
+  - title: Contact
+    url: /dbms-blog-mala/contact/
