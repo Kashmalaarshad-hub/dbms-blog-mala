@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Python Journey: Week 1 Reflection"
-date: 2026-04-06
+date: 2026-04-05
 categories: Python
 ---
 
