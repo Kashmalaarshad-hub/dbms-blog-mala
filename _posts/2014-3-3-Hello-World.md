@@ -1,10 +1,21 @@
 ---
 layout: post
-title: You're up and running!
+title: DBMS Lab Task - MySQL and Blog Setup
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+### Student Information
+**Name:** Kashmala Arshad  
+**Roll No:** [bscpe-186]  
+**Section:** Section B  
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+---
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+### Today's Lab Task
+Sir, I have successfully performed the following tasks:
+
+1. **GitHub Blog:** Established this blog using Jekyll.
+2. **Post Feature:** This is a live post showing the update feature.
+3. **MySQL Task:** Created a database with 10+ features and inserted 5 rows in MySQL Workbench.
+
+---
+*Submitted to: Sir Bilal (UET Faisalabad)*
