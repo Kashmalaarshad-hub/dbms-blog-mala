@@ -1,15 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
 ---
 
-Some information about you!
+My name is **Kashmala Arshad**. I am a student of **Section B** at **UET Faisalabad Campus**.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+This blog is created as part of my Mid-term evaluation for the Database Management Systems (DBMS) course. I am learning how to manage databases and host web applications using GitHub and Jekyll.
